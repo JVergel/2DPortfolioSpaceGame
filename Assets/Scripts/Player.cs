@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Animations;
 
 
 public class Player : MonoBehaviour
@@ -22,7 +23,12 @@ public class Player : MonoBehaviour
     private powerUpManager powerUpManager;
     [SerializeField]
     private int _score;
+    [SerializeField]
+    private GameObject[] WingDamage;
     private UIManager uIManager;
+    private Animator _anim;
+    [SerializeField]
+    private AudioSource LazerSound;
     public int Score
     {
         get 
@@ -52,7 +58,13 @@ public class Player : MonoBehaviour
             Debug.LogError("null spawn");
         }
         uIManager = GameObject.Find("UI_Manager").GetComponent<UIManager>();
+        _anim = this.GetComponent<Animator>();
+        
 
+    }
+    public void ChangeAnimation()
+    {
+        _anim.SetInteger("X_Axis", (int)vel.x);
     }
 
     public void Update()
@@ -86,7 +98,21 @@ public class Player : MonoBehaviour
         {
             finalSpeed = moveSpeed;
         }
+        ChangeAnimation();
         transform.Translate(vel * Time.deltaTime * finalSpeed);
+    }
+    public void TurnOnDamage()
+    {
+        GameObject ThisWIng = WingDamage[Random.Range(0, 2)];
+        if (!ThisWIng.activeSelf)
+        {
+            ThisWIng.SetActive(true);
+        }
+        else
+        {
+            TurnOnDamage();
+        }
+        
     }
     public void lowerHealth(int Damage)
     {
@@ -98,7 +124,7 @@ public class Player : MonoBehaviour
             health = health - Damage;
             
             Debug.Log("lower");
-            if (health <= 0)
+            if (health <= 1)
             {
                 spawnManager.OnPlayerDeath();
                 uIManager.ChangeGameState(1);
@@ -107,6 +133,10 @@ public class Player : MonoBehaviour
 
                 
                 
+            }
+            else
+            {
+                TurnOnDamage();
             }
             uIManager.changeLives(health);
         }
@@ -120,8 +150,10 @@ public class Player : MonoBehaviour
     public void Fire(InputAction.CallbackContext context)
     {
         tripleShot = powerUpManager.tripleShot;
+        
         if (context.started == true)
         {
+
             if (tripleShot)
             {
                 Instantiate(tripleLazer, new Vector3(transform.position.x, transform.position.y-1.5f, transform.position.z), Quaternion.identity);
@@ -131,6 +163,8 @@ public class Player : MonoBehaviour
                 Instantiate(lazer, new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z), Quaternion.identity);
             }
         }
+
+        LazerSound.Play();
 
     }
 

@@ -9,6 +9,8 @@ public class powerUpManager : MonoBehaviour
     private float waitTime;
     [SerializeField]
     private GameObject _ShieldVisual;
+    [SerializeField]
+    private AudioSource _PowerUpsound;
 
 
     public bool tripleShot
@@ -55,11 +57,13 @@ public class powerUpManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
+
         _tripleShot = false;
         _speedUp = false;
         _shieldUp = false;
         _Powerupvel     = 3;
         _ShieldVisual = GameObject.Find("Player2D").transform.Find("ShieldVisual").gameObject;
+        _PowerUpsound = GetComponent<AudioSource>();
 
     }
     public void powerUpMovement(Transform powerTransform,int velocity)
@@ -98,6 +102,7 @@ public class powerUpManager : MonoBehaviour
             default:
                 break;
         }
+        _PowerUpsound.Play();
         Destroy(powerTransform.gameObject);
 
     }

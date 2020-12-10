@@ -12,6 +12,7 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+	Web GL: WebGL
       Any: 
     second:
       enabled: 1

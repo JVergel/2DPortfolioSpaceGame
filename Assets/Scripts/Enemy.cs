@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,12 +10,18 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     
     private Player player;
+    private Animator anim;
+    private Collider2D coll;
+    [SerializeField]
+    private AudioSource ExplodeSound;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        
+        anim = GetComponent<Animator>();
+        coll = GetComponent<Collider2D>();
+        ExplodeSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,9 +56,11 @@ public class Enemy : MonoBehaviour
             {
                 player.lowerHealth(1);
             }
-            
-            
-            Destroy(transform.gameObject);
+            coll.enabled = false;
+            anim.SetTrigger("EnemyIsDeath");
+            ExplodeSound.Play();
+           
+            Destroy(transform.gameObject,2.8f);
         }
 
         if (other.gameObject.CompareTag("Lazer"))
@@ -59,7 +68,10 @@ public class Enemy : MonoBehaviour
             
             player.AddScore(10);
             Destroy(other.gameObject);
-            Destroy(transform.gameObject);
+            coll.enabled = false;
+            ExplodeSound.Play();
+            anim.SetTrigger("EnemyIsDeath");
+            Destroy(transform.gameObject,2.8f);
         }
 
     }

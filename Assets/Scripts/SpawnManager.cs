@@ -19,10 +19,13 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+    }
+    public void StartSpawning()
+    {
         StartCoroutine(spwaningEnemies());
         StartCoroutine(powerUpSpawning());
     }
-
     // Update is called once per frame
 
     private IEnumerator spwaningEnemies()

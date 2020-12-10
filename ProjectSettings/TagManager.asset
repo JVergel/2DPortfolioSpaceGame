@@ -8,11 +8,12 @@ TagManager:
   - Lazer
   - TripleShot
   - SpeedUp
+  - LevelManager
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - POST
   - Water
   - UI
   - 
