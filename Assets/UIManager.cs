@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
+    private TextMeshProUGUI ammoText;
+    [SerializeField]
     private  TextMeshProUGUI  scoreText;
     [SerializeField]
     private TextMeshProUGUI gameOverText;
@@ -40,6 +42,10 @@ public class UIManager : MonoBehaviour
     public void changeScore()
     {
         scoreText.text = "Score:" + player.Score;
+    }
+    public void changeAmmo()
+    {
+        ammoText.text = "Ammo:" + player.Ammo;
     }
     public void changeLives(int lives)
     {

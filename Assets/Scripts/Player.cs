@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private int _score;
     [SerializeField]
+    private int _ammo;
+    [SerializeField]
     private GameObject[] WingDamage;
     private UIManager uIManager;
     private Animator _anim;
@@ -34,6 +36,13 @@ public class Player : MonoBehaviour
         get 
         {
             return _score;
+        }
+    }
+    public int Ammo
+    {
+        get
+        {
+            return _ammo;
         }
     }
 
@@ -59,7 +68,7 @@ public class Player : MonoBehaviour
         }
         uIManager = GameObject.Find("UI_Manager").GetComponent<UIManager>();
         _anim = this.GetComponent<Animator>();
-        
+        _ammo = 15;
 
     }
     public void ChangeAnimation()
@@ -163,22 +172,30 @@ public class Player : MonoBehaviour
     }
     public void Fire(InputAction.CallbackContext context)
     {
+
         tripleShot = powerUpManager.tripleShot;
         
         if (context.started == true)
         {
 
-            if (tripleShot)
+            if (_ammo > 0)
             {
-                Instantiate(tripleLazer, new Vector3(transform.position.x, transform.position.y-1.5f, transform.position.z), Quaternion.identity);
+                _ammo -= 1;
+                uIManager.changeAmmo();
+                if (tripleShot)
+                {
+                    Instantiate(tripleLazer, new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(lazer, new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z), Quaternion.identity);
+                }
+                LazerSound.Play();
             }
-            else
-            {
-                Instantiate(lazer, new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z), Quaternion.identity);
-            }
+            
         }
 
-        LazerSound.Play();
+        
 
     }
     public void Thrusters(InputAction.CallbackContext context)
