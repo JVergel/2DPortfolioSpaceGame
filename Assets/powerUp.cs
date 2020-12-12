@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class powerUp : MonoBehaviour
 {
+
     [SerializeField]
     private powerUpManager powerUpManager;
     [SerializeField]

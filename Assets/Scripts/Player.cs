@@ -118,8 +118,22 @@ public class Player : MonoBehaviour
     {
         if(powerUpManager.ShieldUp)
         {
-            powerUpManager.powerUpShotDeactivated((int) powerUpManager.PowerUpById.ShieldsUp);
-        }else
+            if (powerUpManager.ShieldForce == 3)
+            {
+                powerUpManager.SetShieldForce(2);
+            }
+            else if(powerUpManager.ShieldForce == 2)
+            {
+                powerUpManager.SetShieldForce(1);
+            }
+            else if (powerUpManager.ShieldForce == 1)
+            {
+                powerUpManager.SetShieldForce(0);
+                powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.ShieldsUp);
+            }
+            
+        }
+        else
         {
             health = health - Damage;
             

@@ -33,6 +33,7 @@ public class powerUpManager : MonoBehaviour
     }
     private int _Powerupvel = 0;
     private bool _shieldUp;
+    private int _shieldForce = 0;
     public bool ShieldUp
     {
         get
@@ -46,6 +47,30 @@ public class powerUpManager : MonoBehaviour
         {
             return _Powerupvel;
         }
+    }
+    public int ShieldForce
+    {
+        get
+        {
+            return _shieldForce;
+        }
+    }
+    public void SetShieldForce(int force)
+    {
+        if (force == 2)
+        {
+            _ShieldVisual.GetComponent<SpriteRenderer>().color = Color.yellow;
+        }
+        if (force == 1)
+        {
+            _ShieldVisual.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+        if (force == 0)
+        {
+            _ShieldVisual.GetComponent<SpriteRenderer>().color = Color.white;
+        }
+
+        _shieldForce = force;
     }
 
     public enum PowerUpById
@@ -96,7 +121,9 @@ public class powerUpManager : MonoBehaviour
                 break;
             case 2:
                 _shieldUp = true;
+                SetShieldForce(3);
                 _ShieldVisual.SetActive(true);
+
 
                 break;
             default:
