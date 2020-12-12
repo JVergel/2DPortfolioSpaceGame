@@ -15,11 +15,11 @@ D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57078
+51987
 Successfully changed project path to: D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b14 (dc0b50340a64)
 [Subsystems] Discovering subsystems at path E:/UnityEditors/2020.2.0b14/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,24 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditors/2020.2.0b14/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditors/2020.2.0b14/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditors/2020.2.0b14/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditors/2020.2.0b14/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/UnityEditors/2020.2.0b14/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001418 seconds.
+Registered in 0.001202 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.458 seconds
+- Completed reload, in  1.959 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003262 seconds.
+Registered in 0.002490 seconds.
 Begin MonoManager ReloadAssembly
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -71,56 +71,37 @@ Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, th
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  0.883 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 101.1 MB.
 System memory in use after: 101.3 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2925.
-Total: 3.199100 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.586100 ms  DeleteObjects: 0.069000 ms)
+Total: 1.822000 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.146800 ms MarkObjects: 1.399700 ms  DeleteObjects: 0.041100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00005.png
-  artifactKey: Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00005.png using Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be098bb91cecd967a823cbbf5289061') in 0.116822 seconds
-  Import took 0.122715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00014.png
-  artifactKey: Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00014.png using Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83ab1594c711972ce0a98ba8b6323cc') in 0.017886 seconds
-  Import took 0.024387 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.0 MB.
-System memory in use after: 53.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2931.
-Total: 2.419500 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.058100 ms  DeleteObjects: 0.015000 ms)
+  path: Assets/InputActions/2DGAMEDEV.inputactions
+  artifactKey: Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputActions/2DGAMEDEV.inputactions using Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9300493b549258b78634147f7d67a8') in 0.063951 seconds
+  Import took 0.067172 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004477 seconds.
+Registered in 0.003360 seconds.
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -133,7 +114,6 @@ Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPort
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Begin MonoManager ReloadAssembly
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -141,6 +121,7 @@ Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPort
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -150,244 +131,27 @@ Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, th
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  0.764 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2427 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.2 MB.
-System memory in use after: 101.4 MB.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 98.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2933.
-Total: 3.853200 ms (FindLiveObjects: 1.013000 ms CreateObjectMapping: 0.221200 ms MarkObjects: 2.595600 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.7 MB.
-System memory in use after: 53.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2933.
-Total: 3.069700 ms (FindLiveObjects: 0.937000 ms CreateObjectMapping: 0.330100 ms MarkObjects: 1.785900 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 193.407575 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png
-  artifactKey: Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png using Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28badd4f1a8c11f7c182e79ed31a8ee4') in 0.057268 seconds
-  Import took 0.061945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/SpaceBG_Overlay.png
-  artifactKey: Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/SpaceBG_Overlay.png using Guid(351f30ffb741fd643b82bde90a222699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2df5dc1233728132bbd39e6d46fa57b') in 0.021122 seconds
-  Import took 0.027093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png
-  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243495a71dd678d977cffcad41c82901') in 0.011135 seconds
-  Import took 0.017035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016157 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png
-  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243495a71dd678d977cffcad41c82901') in 0.010834 seconds
-  Import took 0.015052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/laser.png
-  artifactKey: Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/laser.png using Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede2c252496c47686583a4467e3009f') in 0.014926 seconds
-  Import took 0.019158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00000.png
-  artifactKey: Guid(e2f5f1638e62545a09c5d6e6d3643101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00000.png using Guid(e2f5f1638e62545a09c5d6e6d3643101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8a73276182f6cc13559742882301d2') in 0.011686 seconds
-  Import took 0.015279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00000.psd
-  artifactKey: Guid(5b8849e8703cd2a48856f693a7ce5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00000.psd using Guid(5b8849e8703cd2a48856f693a7ce5940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e140bda9554949d3bfad2fee6c98eab') in 0.014837 seconds
-  Import took 0.019575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00000.png
-  artifactKey: Guid(1d67ba02a3ae743ed81501156742929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Explosion/Explosion_00000.png using Guid(1d67ba02a3ae743ed81501156742929f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfcd32f1674967209396932aae762e9') in 0.010737 seconds
-  Import took 0.016130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00000.png
-  artifactKey: Guid(ed6681d697652144a913093bf7ad1d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Triple_Shot/Powerup3_0008_00000.png using Guid(ed6681d697652144a913093bf7ad1d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa62f2631add0edbda622c3673c1d74') in 0.014337 seconds
-  Import took 0.018643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00000.png
-  artifactKey: Guid(3154912113cbb4a498df6f571c74e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00000.png using Guid(3154912113cbb4a498df6f571c74e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bab240389541cc95e0713e956912ef') in 0.014400 seconds
-  Import took 0.030526 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.9 MB.
-System memory in use after: 54.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2938.
-Total: 3.617500 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.190500 ms MarkObjects: 2.972500 ms  DeleteObjects: 0.029800 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 54.4 MB.
-System memory in use after: 54.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2938.
-Total: 2.722000 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.134900 ms MarkObjects: 2.263300 ms  DeleteObjects: 0.020400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.238255 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png
-  artifactKey: Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png using Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f515184abcab712e8220bd36b318671') in 0.019850 seconds
-  Import took 0.026321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png
-  artifactKey: Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png using Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43802a9cd3c66716f9c61528f366841') in 0.016668 seconds
-  Import took 0.022558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0008.png
-  artifactKey: Guid(f3346fe3e2c9e4527a394f1e99d25f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0008.png using Guid(f3346fe3e2c9e4527a394f1e99d25f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d4c8eff3effd33c6a069c5610b0a0c') in 0.023422 seconds
-  Import took 0.028244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0000.png
-  artifactKey: Guid(1d5981962683d455ba1857f592a65b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0000.png using Guid(1d5981962683d455ba1857f592a65b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32880d65394e12146de38431ce83b1a5') in 0.020603 seconds
-  Import took 0.028038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0005.png
-  artifactKey: Guid(783c36011820c44b99ac90932d536fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0005.png using Guid(783c36011820c44b99ac90932d536fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ea93bb0ba67f813195736756bccacb') in 0.015475 seconds
-  Import took 0.019319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0002.png
-  artifactKey: Guid(c7a5b907897124d63a1b3d00415f44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0002.png using Guid(c7a5b907897124d63a1b3d00415f44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e82e5fef8c77072345e3f6315e9a78') in 0.018993 seconds
-  Import took 0.023982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0004.png
-  artifactKey: Guid(c17202ebaabb9488a968b16bdf23eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0004.png using Guid(c17202ebaabb9488a968b16bdf23eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9271ac9c518f8295046f9b6d13cdb5') in 0.014930 seconds
-  Import took 0.019308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0003.png
-  artifactKey: Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0003.png using Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7804ee12401fa6df27922ac1be74ea5') in 0.017313 seconds
-  Import took 0.021764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0001.png
-  artifactKey: Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0001.png using Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8cdf3c1e1be0bc715310aec1fc3488') in 0.022569 seconds
-  Import took 0.026530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0006.png
-  artifactKey: Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0006.png using Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14be14f290605b2e3a7833b87d36eb2') in 0.014462 seconds
-  Import took 0.018213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0007.png
-  artifactKey: Guid(a5dba836ea2bb43149e8e73f5dbc6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0007.png using Guid(a5dba836ea2bb43149e8e73f5dbc6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a44f78e92c255a85c114643f098d5f7') in 0.013985 seconds
-  Import took 0.018936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png
-  artifactKey: Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png using Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f515184abcab712e8220bd36b318671') in 0.012893 seconds
-  Import took 0.017389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0007.png
-  artifactKey: Guid(be96d907589954304a9aaf149e51d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0007.png using Guid(be96d907589954304a9aaf149e51d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260d8bb3c759fcb025465c62cbbd53ae') in 0.015309 seconds
-  Import took 0.019519 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 2.132800 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.105600 ms MarkObjects: 1.788500 ms  DeleteObjects: 0.020100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002739 seconds.
+Registered in 0.002665 seconds.
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -402,14 +166,14 @@ Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPort
 Begin MonoManager ReloadAssembly
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
 
@@ -423,32 +187,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.709 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.3 MB.
-System memory in use after: 102.5 MB.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2940.
-Total: 1.888400 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.165300 ms MarkObjects: 1.396500 ms  DeleteObjects: 0.017100 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 54.8 MB.
-System memory in use after: 55.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2940.
-Total: 2.166800 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.202300 ms MarkObjects: 1.589800 ms  DeleteObjects: 0.014500 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2929.
+Total: 1.831200 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.155300 ms MarkObjects: 1.351100 ms  DeleteObjects: 0.014800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002469 seconds.
+Registered in 0.002472 seconds.
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -462,14 +215,14 @@ Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPort
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Begin MonoManager ReloadAssembly
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
@@ -478,53 +231,669 @@ Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, th
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.701 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.9 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 98.8 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2942.
-Total: 1.790000 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.129800 ms MarkObjects: 1.342100 ms  DeleteObjects: 0.016200 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 1.909500 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.113300 ms MarkObjects: 1.541600 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002529 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.6 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2933.
+Total: 2.136400 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.134400 ms MarkObjects: 1.736000 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002423 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2935.
+Total: 1.819800 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.513800 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002436 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 2.181800 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.159600 ms MarkObjects: 1.558000 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002939 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.5 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2939.
+Total: 1.959600 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.129100 ms MarkObjects: 1.571800 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002945 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2941.
+Total: 1.942700 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.141200 ms MarkObjects: 1.522900 ms  DeleteObjects: 0.014500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 838.748798 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0005.png
-  artifactKey: Guid(35a20c271ee5445c6b637c26ef35a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0005.png using Guid(35a20c271ee5445c6b637c26ef35a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f790e790458e3bfce3d4ae09b89efc') in 0.045217 seconds
-  Import took 0.048933 seconds .
+  Time since last request: 492.965977 seconds.
+  path: Assets/InputActions/2DGAMEDEV.inputactions
+  artifactKey: Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputActions/2DGAMEDEV.inputactions using Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f76d6f438c3b2c75b6c5c44e89c1a2') in 0.018020 seconds
+  Import took 0.023215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.749904 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0002.png
-  artifactKey: Guid(76f24fca3aede49a392f5b213ca9bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0002.png using Guid(76f24fca3aede49a392f5b213ca9bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a065804743abec2ec7699931d28ea5fe') in 0.168354 seconds
-  Import took 0.172198 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png
+  artifactKey: Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png using Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87e145c18ba30ee805f3b30a71ec193') in 0.165728 seconds
+  Import took 0.170576 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095818 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png
-  artifactKey: Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png using Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cb7f7fc3f4443e42d386b0ec677961') in 0.019497 seconds
-  Import took 0.022776 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png
+  artifactKey: Guid(d787c20432c240f4949294982747050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png using Guid(d787c20432c240f4949294982747050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9c1548060ef9b75eef965b4a249ba7') in 0.025745 seconds
+  Import took 0.029580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003548 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png
-  artifactKey: Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png using Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cb7f7fc3f4443e42d386b0ec677961') in 0.014344 seconds
-  Import took 0.018967 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png
+  artifactKey: Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png using Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87e145c18ba30ee805f3b30a71ec193') in 0.008496 seconds
+  Import took 0.012297 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002557 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2945.
+Total: 2.304400 ms (FindLiveObjects: 0.415400 ms CreateObjectMapping: 0.225300 ms MarkObjects: 1.645600 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002580 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2947.
+Total: 2.060700 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.183000 ms MarkObjects: 1.541000 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.5 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2949.
+Total: 1.684400 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.110800 ms MarkObjects: 1.333500 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003450 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 1.989300 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.144600 ms MarkObjects: 1.530100 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002427 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2953.
+Total: 2.030500 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.107600 ms MarkObjects: 1.691100 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002478 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2955.
+Total: 2.288200 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.163400 ms MarkObjects: 1.755600 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 627.270310 seconds.
+  path: Assets/InputActions/2DGAMEDEV.inputactions
+  artifactKey: Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputActions/2DGAMEDEV.inputactions using Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd2764779558491c3007f1a0d3829d3') in 0.017435 seconds
+  Import took 0.022607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024988 seconds.
+  path: Assets/InputActions/2DGAMEDEV.inputactions
+  artifactKey: Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputActions/2DGAMEDEV.inputactions using Guid(083c81eb5acefc24db3347672cb955bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd2764779558491c3007f1a0d3829d3') in 0.004076 seconds
+  Import took 0.013705 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003050 seconds.
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Begin MonoManager ReloadAssembly
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Runtime.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Can't find custom attr constructor image: D:\DesarrolloDeJuegos\2DGAMEDEV\2DPortfolioSpaceGame\Library\ScriptAssemblies\Ludiq.PeekCore.Editor.dll mtoken: 0x0a000005 due to: Could not load file or assembly 'Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Ludiq.OdinSerializer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Runtime.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Library/ScriptAssemblies/Ludiq.PeekCore.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 1.929900 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.188300 ms MarkObjects: 1.409500 ms  DeleteObjects: 0.019300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

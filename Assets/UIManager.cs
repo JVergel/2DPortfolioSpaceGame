@@ -78,10 +78,20 @@ public class UIManager : MonoBehaviour
         if (context.started == true)
         {
             Debug.Log("R");
-            if (GameOverState)
+            if (_GameOverState)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+
+        }
+
+    }
+    public void Escape(InputAction.CallbackContext context)
+    {
+        if (context.started == true)
+        {
+            Debug.Log("QUIT");
+            Application.Quit();
 
         }
 

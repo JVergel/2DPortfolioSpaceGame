@@ -49,6 +49,22 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Escape"",
+                    ""type"": ""Button"",
+                    ""id"": ""3476f0c7-71b3-46a4-988b-4cc13fa855a9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Thrusters"",
+                    ""type"": ""Button"",
+                    ""id"": ""f0624168-0e56-45e1-ad08-c5a0bf2eef41"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -291,6 +307,28 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1586867c-7641-48fa-801b-bbf9e436fe5c"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Escape"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""10d2a1da-8a5f-437d-9fea-4edf85864019"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Thrusters"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -872,6 +910,8 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Restart = m_Player.FindAction("Restart", throwIfNotFound: true);
+        m_Player_Escape = m_Player.FindAction("Escape", throwIfNotFound: true);
+        m_Player_Thrusters = m_Player.FindAction("Thrusters", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -937,6 +977,8 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Restart;
+    private readonly InputAction m_Player_Escape;
+    private readonly InputAction m_Player_Thrusters;
     public struct PlayerActions
     {
         private @_2DGAMEDEV m_Wrapper;
@@ -945,6 +987,8 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Restart => m_Wrapper.m_Player_Restart;
+        public InputAction @Escape => m_Wrapper.m_Player_Escape;
+        public InputAction @Thrusters => m_Wrapper.m_Player_Thrusters;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -966,6 +1010,12 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                 @Restart.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
                 @Restart.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
                 @Restart.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRestart;
+                @Escape.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
+                @Escape.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
+                @Escape.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
+                @Thrusters.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
+                @Thrusters.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
+                @Thrusters.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -982,6 +1032,12 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                 @Restart.started += instance.OnRestart;
                 @Restart.performed += instance.OnRestart;
                 @Restart.canceled += instance.OnRestart;
+                @Escape.started += instance.OnEscape;
+                @Escape.performed += instance.OnEscape;
+                @Escape.canceled += instance.OnEscape;
+                @Thrusters.started += instance.OnThrusters;
+                @Thrusters.performed += instance.OnThrusters;
+                @Thrusters.canceled += instance.OnThrusters;
             }
         }
     }
@@ -1142,6 +1198,8 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnRestart(InputAction.CallbackContext context);
+        void OnEscape(InputAction.CallbackContext context);
+        void OnThrusters(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

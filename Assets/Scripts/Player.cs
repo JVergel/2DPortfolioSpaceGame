@@ -167,6 +167,20 @@ public class Player : MonoBehaviour
         LazerSound.Play();
 
     }
+    public void Thrusters(InputAction.CallbackContext context)
+    {
+
+        if (context.started == true)
+        {
+            moveSpeed = moveSpeed * 2;
+        }
+        if (context.canceled == true)
+        {
+            moveSpeed = moveSpeed / 2;
+        }
+
+
+    }
 
     public void AddScore(int Points)
     {
