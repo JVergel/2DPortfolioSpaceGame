@@ -10,6 +10,8 @@ public class powerUpManager : MonoBehaviour
     [SerializeField]
     private GameObject _ShieldVisual;
     [SerializeField]
+    private Player _Player;
+    [SerializeField]
     private AudioSource _PowerUpsound;
 
 
@@ -34,6 +36,7 @@ public class powerUpManager : MonoBehaviour
     private int _Powerupvel = 0;
     private bool _shieldUp;
     private bool _ammoUp;
+    private bool _lifeUp;
     private int _shieldForce = 0;
     public bool AmmoUp
     {
@@ -47,6 +50,13 @@ public class powerUpManager : MonoBehaviour
         get
         {
             return _shieldUp;
+        }
+    }
+    public bool LifeUp
+    {
+        get
+        {
+            return _lifeUp;
         }
     }
     public int powerUpVel
@@ -86,7 +96,8 @@ public class powerUpManager : MonoBehaviour
         tripleShot,
         SpeedUp,
         ShieldsUp,
-        AmmoUp
+        AmmoUp,
+        LifeUp
     }
     // Start is called before the first frame update
     private void Awake()
@@ -95,9 +106,10 @@ public class powerUpManager : MonoBehaviour
         _tripleShot = false;
         _speedUp = false;
         _shieldUp = false;
+        _lifeUp = false;
         
         _Powerupvel     = 3;
-        
+        _Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         _ShieldVisual = GameObject.Find("Player2D").transform.Find("ShieldVisual").gameObject;
         _PowerUpsound = GetComponent<AudioSource>();
 
@@ -117,19 +129,20 @@ public class powerUpManager : MonoBehaviour
         ///id 1=> speed
         ///id 2=> shield
         ///id 3=> ammo
+        ///id 4=> life
         float localwaitTime;
         switch (id)
         {
-            
+
             case 0:
                 _tripleShot = true;
                 localwaitTime = 5f;
-                StartCoroutine(powerUpBack(localwaitTime,id));
+                StartCoroutine(powerUpBack(localwaitTime, id));
                 break;
             case 1:
                 _speedUp = true;
                 localwaitTime = 10f;
-                StartCoroutine(powerUpBack(localwaitTime,id));
+                StartCoroutine(powerUpBack(localwaitTime, id));
                 break;
             case 2:
                 _shieldUp = true;
@@ -138,9 +151,13 @@ public class powerUpManager : MonoBehaviour
                 break;
             case 3:
                 _ammoUp = true;
-                localwaitTime = 1f/60;
-                StartCoroutine(powerUpBack(localwaitTime, id));
+                _Player.AddAmmo();
                 break;
+            case 4:
+                _lifeUp = true;
+                _Player.addHealth(1);
+                break;
+        
 
             default:
                 break;
@@ -165,6 +182,9 @@ public class powerUpManager : MonoBehaviour
                 break;
             case 3:
                 _ammoUp = false;
+                break;
+            case 4:
+                _lifeUp = false;
                 break;
             default:
                 break;

@@ -943,6 +943,7 @@ MonoBehaviour:
   - {fileID: 8524527350382446337, guid: e2c828a8c1290f94daed9527dcb7f055, type: 3}
   - {fileID: 1858477013467640601, guid: ae6900c35d402a14389cb2fcf13f4cb0, type: 3}
   - {fileID: 8027376437607464093, guid: d0c24f42234374742a3d57d9a7c91abb, type: 3}
+  - {fileID: 6582492466282184949, guid: b2b62edbecd623c4a8d01fb68c03dc43, type: 3}
 --- !u!4 &1141786126
 Transform:
   m_ObjectHideFlags: 0
@@ -971,6 +972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waitTime: 0
   _ShieldVisual: {fileID: 0}
+  _Player: {fileID: 0}
   _PowerUpsound: {fileID: 0}
 --- !u!82 &1141786128
 AudioSource:

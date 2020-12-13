@@ -80,10 +80,7 @@ public class Player : MonoBehaviour
     {
         
         PlayerMovement();
-        if (powerUpManager.AmmoUp&& _ammo<15)
-        {
-            AddAmmo(15-Ammo);
-        }
+        
     }
     private void PlayerMovement()
     {
@@ -126,6 +123,16 @@ public class Player : MonoBehaviour
             TurnOnDamage();
         }
         
+    }
+    public void addHealth(int Life)
+    {
+        if (health < 4)
+        {
+            health = health + Life;
+            uIManager.changeLives(health);
+            powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.LifeUp);
+        }
+
     }
     public void lowerHealth(int Damage)
     {
@@ -216,15 +223,18 @@ public class Player : MonoBehaviour
 
 
     }
-
     public void AddScore(int Points)
     {
         _score += Points;
         uIManager.changeScore();
     }
-    public void AddAmmo(int Ammo)
+    public void AddAmmo()
     {
-        _ammo += Ammo;
+        if (powerUpManager.AmmoUp && _ammo < 15)
+        {
+            _ammo+=(15 - Ammo);
+            powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.AmmoUp);
+        }
         uIManager.changeAmmo();
     }
 }
