@@ -80,6 +80,10 @@ public class Player : MonoBehaviour
     {
         
         PlayerMovement();
+        if (powerUpManager.AmmoUp&& _ammo<15)
+        {
+            AddAmmo(15-Ammo);
+        }
     }
     private void PlayerMovement()
     {
@@ -217,5 +221,10 @@ public class Player : MonoBehaviour
     {
         _score += Points;
         uIManager.changeScore();
+    }
+    public void AddAmmo(int Ammo)
+    {
+        _ammo += Ammo;
+        uIManager.changeAmmo();
     }
 }

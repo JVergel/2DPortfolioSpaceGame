@@ -33,7 +33,15 @@ public class powerUpManager : MonoBehaviour
     }
     private int _Powerupvel = 0;
     private bool _shieldUp;
+    private bool _ammoUp;
     private int _shieldForce = 0;
+    public bool AmmoUp
+    {
+        get
+        {
+            return _ammoUp;
+        }
+    }
     public bool ShieldUp
     {
         get
@@ -77,7 +85,8 @@ public class powerUpManager : MonoBehaviour
     {
         tripleShot,
         SpeedUp,
-        ShieldsUp
+        ShieldsUp,
+        AmmoUp
     }
     // Start is called before the first frame update
     private void Awake()
@@ -86,7 +95,9 @@ public class powerUpManager : MonoBehaviour
         _tripleShot = false;
         _speedUp = false;
         _shieldUp = false;
+        
         _Powerupvel     = 3;
+        
         _ShieldVisual = GameObject.Find("Player2D").transform.Find("ShieldVisual").gameObject;
         _PowerUpsound = GetComponent<AudioSource>();
 
@@ -105,6 +116,7 @@ public class powerUpManager : MonoBehaviour
         ///id 0=> tripleshot
         ///id 1=> speed
         ///id 2=> shield
+        ///id 3=> ammo
         float localwaitTime;
         switch (id)
         {
@@ -123,9 +135,13 @@ public class powerUpManager : MonoBehaviour
                 _shieldUp = true;
                 SetShieldForce(3);
                 _ShieldVisual.SetActive(true);
-
-
                 break;
+            case 3:
+                _ammoUp = true;
+                localwaitTime = 1f/60;
+                StartCoroutine(powerUpBack(localwaitTime, id));
+                break;
+
             default:
                 break;
         }
@@ -146,6 +162,9 @@ public class powerUpManager : MonoBehaviour
             case 2:
                 _shieldUp = false;
                 _ShieldVisual.SetActive(false);
+                break;
+            case 3:
+                _ammoUp = false;
                 break;
             default:
                 break;
