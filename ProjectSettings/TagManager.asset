@@ -49,3 +49,6 @@ TagManager:
   - name: Shield
     uniqueID: 3639399427
     locked: 0
+  - name: Player
+    uniqueID: 2815460375
+    locked: 0

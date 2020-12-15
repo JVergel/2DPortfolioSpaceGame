@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
         {
             transform.position = new Vector3(-transform.position.x, transform.position.y, transform.position.z);
         }
-        transform.Translate(Vector2.down * enemyVelocity * Time.deltaTime);
+        transform.Translate(new Vector2(Mathf.Sin(-1 * enemyVelocity *Time.time) * 0.02f, -1* enemyVelocity * Time.deltaTime ));
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
