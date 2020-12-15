@@ -21,6 +21,8 @@ public class UIManager : MonoBehaviour
     private Image CurrentIMG;
     [SerializeField]
     private Sprite LivesSprite;
+    [SerializeField]
+    private Image Charge;
     private bool _GameOverState;
     public bool GameOverState
     {
@@ -54,6 +56,10 @@ public class UIManager : MonoBehaviour
             CurrentIMG.sprite = LivesIMG[lives-1];
         }
         
+    }
+    public void changeCharge()
+    {
+        Charge.fillAmount = player.BoostPercentage();
     }
     public void ChangeGameState(int stateID)
     {

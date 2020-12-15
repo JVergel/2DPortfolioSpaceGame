@@ -31,6 +31,14 @@ public class Player : MonoBehaviour
     private Animator _anim;
     [SerializeField]
     private AudioSource LazerSound;
+    [SerializeField]
+    private float MaxBoostTime;
+    [SerializeField]
+    private float ActualBoostTime;
+    private float NormalSpeed;
+    private Coroutine chargeUp;
+    private Coroutine chargeDown;
+
     public int Score
     {
         get 
@@ -71,11 +79,18 @@ public class Player : MonoBehaviour
         uIManager = GameObject.Find("UI_Manager").GetComponent<UIManager>();
         _anim = this.GetComponent<Animator>();
         _ammo = 15;
+        ActualBoostTime = MaxBoostTime;
+        NormalSpeed = moveSpeed;
 
+    }
+    public float BoostPercentage()
+    {
+        return ActualBoostTime / MaxBoostTime; 
     }
     public void ChangeAnimation()
     {
         _anim.SetInteger("X_Axis", (int)vel.x);
+        
     }
 
     public void Update()
@@ -232,13 +247,92 @@ public class Player : MonoBehaviour
     public void Thrusters(InputAction.CallbackContext context)
     {
 
-        if (context.started == true)
+        if (context.performed == true)
         {
-            moveSpeed = moveSpeed * 2;
+
+            if (ActualBoostTime> 0.05f)
+            {
+
+                if (chargeUp != null)
+                {
+                    StopCoroutine(chargeUp);
+                }
+                if (chargeDown != null)
+                {
+                    StopCoroutine(chargeDown);
+                }
+
+                chargeUp = StartCoroutine(TrustOn());
+                
+                
+                
+
+            }
+            else
+            {
+                moveSpeed = NormalSpeed;
+            }
+            
+
+
         }
         if (context.canceled == true)
         {
-            moveSpeed = moveSpeed / 2;
+            if (chargeUp != null)
+            {
+                StopCoroutine(chargeUp);
+            }
+            if(chargeDown!= null)
+            {
+                StopCoroutine(chargeDown);
+            }
+            
+                chargeDown = StartCoroutine(TrustOff());
+            
+        }
+
+
+    }
+    IEnumerator TrustOn()
+    {
+        if (chargeDown != null)
+        {
+            StopCoroutine(chargeDown);
+        }
+
+        while (ActualBoostTime>0)
+        {
+            if (moveSpeed < NormalSpeed * 2)
+            {
+                moveSpeed = moveSpeed * 2;
+            }
+            
+            ActualBoostTime -= 0.1f;
+            uIManager.changeCharge();
+            yield return new WaitForSeconds(0.1f);
+
+        }
+        chargeDown = StartCoroutine(TrustOff());
+
+
+    }
+    IEnumerator TrustOff()
+    {
+        if (chargeUp != null)
+        {
+            StopCoroutine(chargeUp);
+        }
+
+        moveSpeed = NormalSpeed;
+        yield return new WaitForSeconds(1f);
+
+        while (ActualBoostTime<MaxBoostTime)
+        {
+            
+            ActualBoostTime += 0.1f;
+            uIManager.changeCharge();
+            yield return new WaitForSeconds(0.3f);
+
         }
 
 
