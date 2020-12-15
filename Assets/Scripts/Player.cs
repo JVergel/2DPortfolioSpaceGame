@@ -362,4 +362,13 @@ public class Player : MonoBehaviour
         }
         uIManager.changeAmmo();
     }
+    public void RestAmmo()
+    {
+        if (powerUpManager.AmmoUp && _ammo >0)
+        {
+            _ammo -= (Ammo/2);
+            powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.AmmoUp);
+        }
+        uIManager.changeAmmo();
+    }
 }

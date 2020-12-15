@@ -931,7 +931,8 @@ MonoBehaviour:
   - {fileID: 2328047065136591264, guid: 4dde67139806a7642b5e69c7022da0ae, type: 3}
   - {fileID: 1848088102231780008, guid: e1d8c83120f82c04a9cee335c0b0361a, type: 3}
   - {fileID: 2328047065136591264, guid: 4ecb9880e44aded44ae598b220fda563, type: 3}
-  weigthChances: 64000000640000006400000064000000640000000a000000
+  - {fileID: 2291470127039321208, guid: 586e19581f368ca4aa8d146c6a83b633, type: 3}
+  weigthChances: 64000000640000006400000064000000640000000a0000000a000000
   NumberOfEnemies: 0
   EnemiesAlive: 0
 --- !u!4 &1141786126
@@ -946,7 +947,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1141786127
 MonoBehaviour:
@@ -2205,7 +2206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1043183247993851574, guid: 1b63211d71d0a1642998bca8fb5ac59f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1043183247993851574, guid: 1b63211d71d0a1642998bca8fb5ac59f, type: 3}
       propertyPath: m_LocalPosition.x

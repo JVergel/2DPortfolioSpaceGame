@@ -173,6 +173,10 @@ public class powerUpManager : MonoBehaviour
                 localwaitTime = 5f;
                 StartCoroutine(powerUpBack(localwaitTime, id));
                 break;
+            case 6:
+                _ammoUp = true;
+                _Player.RestAmmo();
+                break;
 
 
             default:
@@ -204,6 +208,9 @@ public class powerUpManager : MonoBehaviour
                 break;
             case 5:
                 _crazyUp = false;
+                break;
+            case 6:
+                _ammoUp = false;
                 break;
             default:
                 break;
