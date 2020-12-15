@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
     private float MaxBoostTime;
     [SerializeField]
     private float ActualBoostTime;
+    [SerializeField]
+    private CShake shakeClass;
     private float NormalSpeed;
     private Coroutine chargeUp;
     private Coroutine chargeDown;
@@ -167,6 +169,7 @@ public class Player : MonoBehaviour
     }
     public void lowerHealth(int Damage)
     {
+        shakeClass.Shake();
         if(powerUpManager.ShieldUp)
         {
             if (powerUpManager.ShieldForce == 3)
