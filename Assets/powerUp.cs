@@ -9,6 +9,17 @@ public class powerUp : MonoBehaviour
     private powerUpManager powerUpManager;
     [SerializeField]
     private int powerupID;
+    [SerializeField]
+    private int _powerupWeigth;
+
+
+    public int PowerupWeigth
+    {
+        get
+        {
+            return _powerupWeigth;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()

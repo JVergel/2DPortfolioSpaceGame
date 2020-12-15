@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpManager: {fileID: 0}
   powerupID: 1
+  _powerupWeigth: 100
 --- !u!95 &8925421415078983556
 Animator:
   serializedVersion: 3

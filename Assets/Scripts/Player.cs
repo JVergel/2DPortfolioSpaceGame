@@ -50,6 +50,8 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject tripleLazer;
+    [SerializeField]
+    private GameObject crazyLazer;
     private float finalSpeed;
 
     private void Awake()
@@ -124,12 +126,26 @@ public class Player : MonoBehaviour
         }
         
     }
+    public void TurnOffDamage()
+    {
+        GameObject ThisWIng = WingDamage[Random.Range(0, 2)];
+        if (ThisWIng.activeSelf)
+        {
+            ThisWIng.SetActive(false);
+        }
+        else
+        {
+            TurnOffDamage();
+        }
+
+    }
     public void addHealth(int Life)
     {
         if (health < 4)
         {
             health = health + Life;
             uIManager.changeLives(health);
+            TurnOffDamage();
             powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.LifeUp);
         }
 
@@ -196,6 +212,10 @@ public class Player : MonoBehaviour
                 if (tripleShot)
                 {
                     Instantiate(tripleLazer, new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z), Quaternion.identity);
+                }
+                else if (powerUpManager.CrazyUp)
+                {
+                    Instantiate(crazyLazer, new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z), Quaternion.identity);
                 }
                 else
                 {

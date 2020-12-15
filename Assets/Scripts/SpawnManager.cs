@@ -16,6 +16,8 @@ public class SpawnManager : MonoBehaviour
     private GameObject enemy;
     [SerializeField]
     private GameObject[]powerUps;
+    [SerializeField]
+    private int[] weigthChances;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +44,7 @@ public class SpawnManager : MonoBehaviour
     {
         while (!stopSpawning)
         {
-            GameObject powerUp = powerUps[Random.Range(0, powerUps.Length)];
+            GameObject powerUp = powerUps[GetRandomWeightedIndex(weigthChances)];
             Instantiate(powerUp, new Vector3(Random.Range(-8, 8), 11, 0), Quaternion.identity);
           
             yield return new WaitForSeconds(Random.Range(15,20));
@@ -53,4 +55,23 @@ public class SpawnManager : MonoBehaviour
         stopSpawning = true;
 
     }
+    public int GetRandomWeightedIndex(int[] weights)
+    {
+        int totalWeigth = System.Linq.Enumerable.Sum(weights);
+        int randomWeigth = Random.Range(0, totalWeigth);
+        int currentWeigth = 0;
+
+        for(int i=0;i<weights.Length; i++)
+        {
+            currentWeigth += weights[i];
+            if (randomWeigth <= currentWeigth)
+            {
+                return i;
+                
+            }
+        }
+        return -1;
+    }
 }
+
+

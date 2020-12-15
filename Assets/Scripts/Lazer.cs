@@ -18,7 +18,7 @@ public class Lazer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * Time.deltaTime *  player.bulletSpeed);
+        transform.Translate(Vector3.up * Time.deltaTime *  player.bulletSpeed,Space.Self);
         if (transform.position.y>6f)
         {
             if (transform.parent == null)

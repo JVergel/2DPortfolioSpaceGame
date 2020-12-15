@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpManager: {fileID: 0}
   powerupID: 2
+  _powerupWeigth: 100
 --- !u!50 &1858477013467640604
 Rigidbody2D:
   serializedVersion: 4

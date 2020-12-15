@@ -156,3 +156,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpManager: {fileID: 0}
   powerupID: 0
+  _powerupWeigth: 100

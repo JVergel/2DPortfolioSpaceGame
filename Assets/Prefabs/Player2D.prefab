@@ -5293,11 +5293,13 @@ MonoBehaviour:
   spawnManager: {fileID: 0}
   powerUpManager: {fileID: 0}
   _score: 0
+  _ammo: 0
   WingDamage:
   - {fileID: 1900488101}
   - {fileID: 184179858763637161}
   LazerSound: {fileID: 260985007}
   tripleLazer: {fileID: 3861220729712667159, guid: 7288789f4bfdf48448b988ef0eaa32ab, type: 3}
+  crazyLazer: {fileID: 3861220729712667159, guid: da21e39202834ab478e5cdbe5a134804, type: 3}
 --- !u!114 &7747475416506979627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5400,9 +5402,41 @@ MonoBehaviour:
     m_ActionId: fe5741a7-a1f4-4110-b2c1-153b97956f04
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 1d7a4ebb-d042-4af0-bf4b-c595e7aafb6a
     m_ActionName: Player/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3476f0c7-71b3-46a4-988b-4cc13fa855a9
+    m_ActionName: Player/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7747475416506979631}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Thrusters
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f0624168-0e56-45e1-ad08-c5a0bf2eef41
+    m_ActionName: Player/Thrusters[/Keyboard/leftShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
