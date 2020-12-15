@@ -47,7 +47,7 @@ public class UIManager : MonoBehaviour
     }
     public void changeAmmo()
     {
-        ammoText.text = "Ammo:" + player.Ammo;
+        ammoText.text = "Ammo:" + player.Ammo+ "/"+player.MaxAmmo;
     }
     public void changeLives(int lives)
     {

@@ -40,7 +40,8 @@ public class Player : MonoBehaviour
     private float NormalSpeed;
     private Coroutine chargeUp;
     private Coroutine chargeDown;
-
+    [SerializeField]
+    private int _MaxAmmo;
     public int Score
     {
         get 
@@ -53,6 +54,13 @@ public class Player : MonoBehaviour
         get
         {
             return _ammo;
+        }
+    }
+    public int MaxAmmo
+    {
+        get
+        {
+            return _MaxAmmo;
         }
     }
 
@@ -347,9 +355,9 @@ public class Player : MonoBehaviour
     }
     public void AddAmmo()
     {
-        if (powerUpManager.AmmoUp && _ammo < 15)
+        if (powerUpManager.AmmoUp && _ammo < _MaxAmmo)
         {
-            _ammo+=(15 - Ammo);
+            _ammo+=(_MaxAmmo - Ammo);
             powerUpManager.powerUpShotDeactivated((int)powerUpManager.PowerUpById.AmmoUp);
         }
         uIManager.changeAmmo();
