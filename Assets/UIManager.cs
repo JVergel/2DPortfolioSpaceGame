@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     private  TextMeshProUGUI  scoreText;
     [SerializeField]
     private TextMeshProUGUI gameOverText;
+    [SerializeField]
+    private TextMeshProUGUI restartText;
     private Player player;
     [SerializeField]
     private Sprite[] LivesIMG;
@@ -69,12 +71,13 @@ public class UIManager : MonoBehaviour
         if(stateID==1)
         {
             gameOverText.gameObject.SetActive(true);
+            restartText.gameObject.SetActive(true);
             _GameOverState = true;
-            StartCoroutine(Flick());
+            StartCoroutine(FlickGameOver());
             Debug.Log(GameOverState);
         }
     }
-    private IEnumerator Flick()
+    private IEnumerator FlickGameOver()
     {
         while (true)
         {
@@ -82,6 +85,20 @@ public class UIManager : MonoBehaviour
             yield return new WaitForSeconds(0.4f);
             gameOverText.text = " ";
             yield return new WaitForSeconds(0.4f);
+        }
+
+    }
+    public IEnumerator FlickNewWave(int CurrentWave)
+    {
+        int Flicks = 5;
+        while (Flicks>0)
+        {
+            gameOverText.text = "     Wave  "+ CurrentWave;
+            yield return new WaitForSeconds(0.4f);
+            gameOverText.text = " ";
+            yield return new WaitForSeconds(0.4f);
+            Flicks--;
+
         }
 
     }

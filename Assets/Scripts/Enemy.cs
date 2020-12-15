@@ -14,10 +14,13 @@ public class Enemy : MonoBehaviour
     private Collider2D coll;
     [SerializeField]
     private AudioSource ExplodeSound;
+    private SpawnManager Manager;
 
     // Start is called before the first frame update
     void Start()
     {
+        Manager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<SpawnManager>();
+        Manager.EnemiesAlive++;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
@@ -74,5 +77,9 @@ public class Enemy : MonoBehaviour
             Destroy(transform.gameObject,2.8f);
         }
 
+    }
+    private void OnDestroy()
+    {
+        Manager.EnemiesAlive--;
     }
 }

@@ -688,7 +688,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 855625373}
-  - component: {fileID: 855625375}
   - component: {fileID: 855625377}
   - component: {fileID: 855625376}
   m_Layer: 0
@@ -717,21 +716,6 @@ RectTransform:
   m_AnchoredPosition: {x: 29.343811, y: 16.824432}
   m_SizeDelta: {x: 954.8, y: 577.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &855625375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855625372}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5883fb7b5a3d285439d57fa896b56f3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyVelocity: 0
-  player: {fileID: 0}
-  ExplodeSound: {fileID: 0}
 --- !u!114 &855625376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -938,6 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f8e4d51e05f7b42935778b0917aee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Umanager: {fileID: 1897620583}
   enemy: {fileID: 1276364735674696193, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
   powerUps:
   - {fileID: 7216123148998113217, guid: d3b7f28fb26aa704081b7eae7ad8c37d, type: 3}
@@ -947,6 +932,8 @@ MonoBehaviour:
   - {fileID: 1848088102231780008, guid: e1d8c83120f82c04a9cee335c0b0361a, type: 3}
   - {fileID: 2328047065136591264, guid: 4ecb9880e44aded44ae598b220fda563, type: 3}
   weigthChances: 64000000640000006400000064000000640000000a000000
+  NumberOfEnemies: 0
+  EnemiesAlive: 0
 --- !u!4 &1141786126
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,7 +1211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1222069577
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1273,7 +1260,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1581,7 +1568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1673812180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2276,6 +2263,10 @@ PrefabInstance:
       propertyPath: CurrentIMG
       value: 
       objectReference: {fileID: 893152610}
+    - target: {fileID: 1043183247993851575, guid: 1b63211d71d0a1642998bca8fb5ac59f, type: 3}
+      propertyPath: restartText
+      value: 
+      objectReference: {fileID: 1673812181}
     - target: {fileID: 1043183247993851575, guid: 1b63211d71d0a1642998bca8fb5ac59f, type: 3}
       propertyPath: gameOverText
       value: 
