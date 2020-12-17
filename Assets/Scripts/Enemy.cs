@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private AudioSource ExplodeSound;
     private SpawnManager Manager;
+    [SerializeField]
+    private bool ShieldOn;
+    [SerializeField]
+    private GameObject Shield;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +29,10 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
         ExplodeSound = GetComponent<AudioSource>();
+        if (ShieldOn)
+        {
+            Shield.SetActive(true);
+        }
     }
 
     // Update is called once per frame
@@ -52,31 +60,38 @@ public class Enemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (ShieldOn)
         {
-            Player player = other.gameObject.GetComponent<Player>();
-            if (player != null)
+            ShieldOn = false;
+            Shield.SetActive(false);
+        }
+        else
+        {
+            if (other.gameObject.CompareTag("Player"))
             {
-                player.lowerHealth(1);
+                Player player = other.gameObject.GetComponent<Player>();
+                if (player != null)
+                {
+                    player.lowerHealth(1);
+                }
+                coll.enabled = false;
+                anim.SetTrigger("EnemyIsDeath");
+                ExplodeSound.Play();
+
+                Destroy(transform.gameObject, 2.8f);
             }
-            coll.enabled = false;
-            anim.SetTrigger("EnemyIsDeath");
-            ExplodeSound.Play();
-           
-            Destroy(transform.gameObject,2.8f);
-        }
 
-        if (other.gameObject.CompareTag("Lazer"))
-        {
-            
-            player.AddScore(10);
-            Destroy(other.gameObject);
-            coll.enabled = false;
-            ExplodeSound.Play();
-            anim.SetTrigger("EnemyIsDeath");
-            Destroy(transform.gameObject,2.8f);
-        }
+            if (other.gameObject.CompareTag("Lazer"))
+            {
 
+                player.AddScore(10);
+                Destroy(other.gameObject);
+                coll.enabled = false;
+                ExplodeSound.Play();
+                anim.SetTrigger("EnemyIsDeath");
+                Destroy(transform.gameObject, 2.8f);
+            }
+        }
     }
     private void OnDestroy()
     {
