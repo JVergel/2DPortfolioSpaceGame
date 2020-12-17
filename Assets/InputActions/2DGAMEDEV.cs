@@ -301,17 +301,6 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""72af6e0a-3ca4-4845-95fa-2ee530fbff5e"",
-                    ""path"": ""<Gamepad>/start"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Restart"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""1586867c-7641-48fa-801b-bbf9e436fe5c"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",

@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private int enemyVelocity;
     [SerializeField]
-    
     private Player player;
     private Animator anim;
     private Collider2D coll;
@@ -19,6 +18,10 @@ public class Enemy : MonoBehaviour
     private bool ShieldOn;
     [SerializeField]
     private GameObject Shield;
+    [SerializeField]
+    private int EnemyMovementId;
+    private Vector2 target;
+    private float step;
 
     // Start is called before the first frame update
     void Start()
@@ -56,7 +59,30 @@ public class Enemy : MonoBehaviour
         {
             transform.position = new Vector3(-transform.position.x, transform.position.y, transform.position.z);
         }
-        transform.Translate(new Vector2(Mathf.Sin(-1 * enemyVelocity *Time.time) * 0.02f, -1* enemyVelocity * Time.deltaTime ));
+        if (EnemyMovementId == 0)
+        {
+            transform.Translate(new Vector2(Mathf.Sin(-1 * enemyVelocity * Time.time) * 0.02f, -1 * enemyVelocity * Time.deltaTime));
+        }
+        else if (EnemyMovementId == 1)
+        {
+            if (Vector2.Distance(this.gameObject.transform.position, player.transform.position)<5)
+            {
+                target = player.transform.position;
+                var dir = player.transform.position - transform.position;
+                var angle = (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) +90;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+                step = (enemyVelocity/1.5f) * Time.deltaTime;
+                transform.position = Vector2.MoveTowards(transform.position, target, step);
+                this.GetComponent<SpriteRenderer>().color = Color.red;
+            }
+            else
+            {
+                transform.Translate(new Vector2(Mathf.Sin(-1 * enemyVelocity * Time.time) * 0.02f, -1 * enemyVelocity * Time.deltaTime),Space.World);
+                transform.rotation = Quaternion.identity;
+                this.GetComponent<SpriteRenderer>().color = Color.white;
+            }
+        }
+        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

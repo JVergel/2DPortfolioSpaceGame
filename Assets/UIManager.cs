@@ -107,13 +107,15 @@ public class UIManager : MonoBehaviour
         if (context.started == true)
         {
             Debug.Log("R");
-            if (_GameOverState)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            
 
         }
 
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void Escape(InputAction.CallbackContext context)
     {
