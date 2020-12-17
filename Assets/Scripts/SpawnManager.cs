@@ -15,11 +15,13 @@ public class SpawnManager : MonoBehaviour
         }
     }
     [SerializeField]
-    private GameObject enemy;
+    private GameObject[] enemy;
+    [SerializeField]
+    private int[] weigthChancesEnemies;
     [SerializeField]
     private GameObject[]powerUps;
     [SerializeField]
-    private int[] weigthChances;
+    private int[] weigthChancesPowerUps;
     private int _currentWave;
   
 
@@ -50,8 +52,8 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
             CuerrentWaveEnemies();
             StartCoroutine(Umanager.FlickNewWave(_currentWave));
-            
-            GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
+            GameObject Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
+            GameObject newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
             newEnemy.transform.parent = transform.gameObject.transform;
             NumberOfEnemies--;
             yield return new WaitForSeconds(RateSpawn);
@@ -63,7 +65,8 @@ public class SpawnManager : MonoBehaviour
                 }
                             else
                             {
-                    newEnemy = Instantiate(enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
+                    Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
+                    newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
                     newEnemy.transform.parent = transform.gameObject.transform;
                     yield return new WaitForSeconds(RateSpawn);
 
@@ -119,7 +122,7 @@ public class SpawnManager : MonoBehaviour
     {
         while (!stopSpawning)
         {
-            GameObject powerUp = powerUps[GetRandomWeightedIndex(weigthChances)];
+            GameObject powerUp = powerUps[GetRandomWeightedIndex(weigthChancesPowerUps)];
             Instantiate(powerUp, new Vector3(Random.Range(-8, 8), 11, 0), Quaternion.identity);
           
             yield return new WaitForSeconds(Random.Range(15,20));

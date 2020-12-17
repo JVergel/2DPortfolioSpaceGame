@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32719 MB
+Built from 'trunk' branch; Version is '2021.1.0a9 (18321e85013a) revision 1585694'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.685; Version 2004; 64bit' Language: 'en' Physical Memory: 32719 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\UnityEditors\2020.2.0f1\Editor\Unity.exe
+E:\UnityEditors\2021.1.0a9\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,206 +15,202 @@ D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54718
+50919
 Successfully changed project path to: D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.0f1 (3721df5a8b28)
-[Subsystems] Discovering subsystems at path E:/UnityEditors/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.1.0a9 (18321e85013a)
+[Subsystems] Discovering subsystems at path E:/UnityEditors/2021.1.0a9/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/DesarrolloDeJuegos/2DGAMEDEV/2DPortfolioSpaceGame/Assets
-GfxDevice: creating device client; threaded=0
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1080 (ID=0x1be0)
     Vendor:   
     VRAM:     7988 MB
     Driver:   27.21.14.6079
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'E:/UnityEditors/2020.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'E:/UnityEditors/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/UnityEditors/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'E:/UnityEditors/2021.1.0a9/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditors/2021.1.0a9/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/UnityEditors/2021.1.0a9/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/UnityEditors/2020.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/UnityEditors/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001287 seconds.
+Register platform support module: E:/UnityEditors/2021.1.0a9/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/UnityEditors/2021.1.0a9/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001426 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.051 seconds
+- Completed reload, in  1.731 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002569 seconds.
+Registered in 0.003541 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 70.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
+- Completed reload, in  1.643 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2631 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.6 MB.
-System memory in use after: 136.8 MB.
+Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.8 MB.
+System memory in use after: 353.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3078.
-Total: 9.495800 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.146700 ms MarkObjects: 8.988100 ms  DeleteObjects: 0.087600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png
-  artifactKey: Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png using Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83988e37fdbf74beef78e1579e595cc') in 0.086879 seconds
-  Import took 0.090419 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4974.
+Total: 13.349800 ms (FindLiveObjects: 0.425900 ms CreateObjectMapping: 0.262100 ms MarkObjects: 12.568400 ms  DeleteObjects: 0.092100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png
-  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdd0585ae6c239ccdb308a93f0e41b0') in 0.014960 seconds
-  Import took 0.018191 seconds .
-
+  path: Assets/Prefabs/Enemy_Shoter Variant.prefab
+  artifactKey: Guid(cd8fa0d4e3c84204bb6983733742e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy_Shoter Variant.prefab using Guid(cd8fa0d4e3c84204bb6983733742e7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97465b7c2758e701b6680e6dbb51ebb') in 0.268813 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/White-Square.jpg
-  artifactKey: Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/White-Square.jpg using Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec897e2b5c7c7b1b6437502149957bf4') in 0.025816 seconds
-  Import took 0.030867 seconds .
-
+  Time since last request: 265.916966 seconds.
+  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00015.psd
+  artifactKey: Guid(28f12876b78240a4aa78e0948517b936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00015.psd using Guid(28f12876b78240a4aa78e0948517b936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cbc0bbc80b08e487632c48a35bf368') in 0.196631 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004726 seconds.
-  path: Assets/White-Square.jpg
-  artifactKey: Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/White-Square.jpg using Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec897e2b5c7c7b1b6437502149957bf4') in 0.009399 seconds
-  Import took 0.013327 seconds .
-
+  Time since last request: 103.828599 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png
+  artifactKey: Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPage@32x.png using Guid(95ac413b88884b7cb51324633c9630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278b6e8901b6033af3fea94459f69c66') in 0.361885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.125743 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png
-  artifactKey: Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png using Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58262cbc54a4fc1d67703aa170debada') in 0.016989 seconds
-  Import took 0.021243 seconds .
-
+  Time since last request: 0.005266 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png
+  artifactKey: Guid(d787c20432c240f4949294982747050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png using Guid(d787c20432c240f4949294982747050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da789166cfd59b3b9c6c7a42efd20d29') in 0.048097 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000816 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png
-  artifactKey: Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Right/Player Turn Right0008.png using Guid(c83085279e66140008ba22ca901f4c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58262cbc54a4fc1d67703aa170debada') in 0.011394 seconds
-  Import took 0.015404 seconds .
-
+  Time since last request: 0.005303 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png
+  artifactKey: Guid(ea616c67a37443d795f9c18db209ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png using Guid(ea616c67a37443d795f9c18db209ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7406c136655fa7f2264561e9680c13') in 0.021412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005139 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Sprites/ad_challenges_3.png
+  artifactKey: Guid(91ce672c492656d4fa0b0665a59259a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Sprites/ad_challenges_3.png using Guid(91ce672c492656d4fa0b0665a59259a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c76bce7a52d61b7dc06a4aca7ad0217') in 0.052779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.737480 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Fonts/FuturaStd-BoldOblique.otf
+  artifactKey: Guid(5cb4434262dab0946b66d63c489196da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Fonts/FuturaStd-BoldOblique.otf using Guid(5cb4434262dab0946b66d63c489196da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fbb43c1bbd32cba102551d7afedcaf') in 1.095254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005173 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Fonts/FuturaStd-ExtraBoldOblique.otf
+  artifactKey: Guid(d0e5a708c6efab34c935980043899e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Fonts/FuturaStd-ExtraBoldOblique.otf using Guid(d0e5a708c6efab34c935980043899e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348dc31fab0d17118d5842149f13ebe5') in 0.050138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005790 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Fonts/SourceSansPro-Regular.ttf
+  artifactKey: Guid(4fd3631bcba788940ad9183ad76683fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Fonts/SourceSansPro-Regular.ttf using Guid(4fd3631bcba788940ad9183ad76683fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a600641ec474affc47429a2d8566bed') in 0.075360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.520557 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Fonts/SourceSansPro-SemiBold.ttf
+  artifactKey: Guid(7ea17d442e0f65d4b8c1096a613e8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Fonts/SourceSansPro-SemiBold.ttf using Guid(7ea17d442e0f65d4b8c1096a613e8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f748c8f3926178abbd4e78b28abad6') in 0.043801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.475645 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/CamingoCode-Regular.ttf
+  artifactKey: Guid(8a702b07fa9146f8a6d7c6cb0a57325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/CamingoCode-Regular.ttf using Guid(8a702b07fa9146f8a6d7c6cb0a57325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2c11190a5b9e2fbe9f97f98d59ea0a') in 0.046493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005104 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/Courier Prime Code.ttf
+  artifactKey: Guid(811020126311456db59a7a8ea14c2103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/Courier Prime Code.ttf using Guid(811020126311456db59a7a8ea14c2103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85fe4b56dd9569827e242a020148bee') in 0.033261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222830 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/Inconsolata-Regular.ttf
+  artifactKey: Guid(78d879f0350e49cca4d8c041f2cef2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/Inconsolata-Regular.ttf using Guid(78d879f0350e49cca4d8c041f2cef2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde80eba43c050519d395facd9f53733') in 0.055452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006557 seconds.
+  path: Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/SourceCodePro-Regular.otf
+  artifactKey: Guid(87315010b00b4122bfea12a652661dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ludiq/Ludiq.PeekCore/Editor/Resources/Fonts/SourceCodePro-Regular.otf using Guid(87315010b00b4122bfea12a652661dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9ba4e9625a047da23576358371a630') in 0.036938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187829 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9df7916599fb01547b8c2db4bd1e8') in 0.013495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053632 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dccd68eda4df863f51969c3942f2002') in 0.111289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005136 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806322a2659368ca5dc03bf911e5cfbf') in 0.093924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052065 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510c55a41fb1038d9c6794af7564101e') in 0.104366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005125 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163227c523ae3d5b4e079b0baa77d8d3') in 0.043024 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002451 seconds.
+Registered in 0.003542 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.250 seconds
+- Completed reload, in  1.582 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.5 MB.
-System memory in use after: 140.7 MB.
+Unloading 4339 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 368.4 MB.
+System memory in use after: 368.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 8.848000 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.120500 ms MarkObjects: 8.435700 ms  DeleteObjects: 0.048600 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.2 MB.
-System memory in use after: 81.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 10.144500 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.135700 ms MarkObjects: 9.724600 ms  DeleteObjects: 0.016400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5303.
+Total: 13.865800 ms (FindLiveObjects: 0.392400 ms CreateObjectMapping: 0.287800 ms MarkObjects: 13.115800 ms  DeleteObjects: 0.068600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.298207 seconds.
-  path: Assets/White-Square.jpg
-  artifactKey: Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/White-Square.jpg using Guid(9482a425d99226d458c54b953964b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14732b6aae4108b6383b70bb40dee89b') in 0.046088 seconds
-  Import took 0.049894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004457 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png
-  artifactKey: Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Player_Turn_Left/Player Turn Left0000.png using Guid(1b4a8fdd39d3a45d0a9ee484ad6800ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace34f97708c2185ca6808e3ee733744') in 0.015375 seconds
-  Import took 0.018882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png
-  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2D_Galaxy_Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6cdf226649e410e1a07a8e5518b80b') in 0.015129 seconds
-  Import took 0.018476 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 71.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3087.
-Total: 9.522800 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.084300 ms MarkObjects: 9.221600 ms  DeleteObjects: 0.016000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2573 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.3 MB.
-System memory in use after: 150.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3089.
-Total: 9.654600 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.137300 ms MarkObjects: 9.114800 ms  DeleteObjects: 0.060100 ms)
-
+  Time since last request: 678.837184 seconds.
+  path: Assets/Materials/Default.mat
+  artifactKey: Guid(e45baad99603c264d92b9cb31ac4f430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Default.mat using Guid(e45baad99603c264d92b9cb31ac4f430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29435ea64f2ef548276399266393f0f4') in 0.107058 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
