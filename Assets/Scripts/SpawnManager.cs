@@ -17,14 +17,16 @@ public class SpawnManager : MonoBehaviour
     [SerializeField]
     private GameObject[] enemy;
     [SerializeField]
+    [Header("----Enemies Rarity----")]
     private int[] weigthChancesEnemies;
     [SerializeField]
-    private GameObject[]powerUps;
+
+    private GameObject[] powerUps;
+
     [SerializeField]
+    [Header("----PowerUp Rarity----")]
     private int[] weigthChancesPowerUps;
     private int _currentWave;
-  
-
     [SerializeField]
     private int NumberOfEnemies;
     private int RateSpawn;
