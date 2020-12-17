@@ -1,19 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8821916352591983346
+--- !u!114 &7707993367048865621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844212084461739294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad98687e146694ebd4d775e25c22c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Lazer: {fileID: 8628367409540440047, guid: 66764d53fd628394780532f239aa35d2, type: 3}
+  SmartOn: 1
+--- !u!1001 &5714232668141313823
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 976586880, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
-      propertyPath: EnemyMovementId
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1276364735674696193, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
       propertyPath: m_Name
-      value: Enemy_Seek Variant
+      value: Enemy_Smart Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1276364735674696197, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
       propertyPath: m_RootOrder
@@ -59,5 +69,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5595148085015757223, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5330188
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595148085015757223, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
+      propertyPath: m_Color.r
+      value: 0.84889054
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
+--- !u!1 &6844212084461739294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1276364735674696193, guid: 768faf53f2811c445b696ed23de1c857, type: 3}
+  m_PrefabInstance: {fileID: 5714232668141313823}
+  m_PrefabAsset: {fileID: 0}
