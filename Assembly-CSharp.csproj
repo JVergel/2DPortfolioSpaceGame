@@ -69,9 +69,10 @@
     <Compile Include="Assets\powerUp.cs" />
     <Compile Include="Assets\Scripts\Lazer2.cs" />
     <Compile Include="Assets\CShake.cs" />
+    <Compile Include="Assets\Scripts\Lazer3.cs" />
     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\Lazer1.cs" />
-    <Compile Include="Assets\Scripts\Lazer3.cs" />
+    <Compile Include="Assets\EnemyRayCast.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ludiq\Ludiq.PeekCore\DotNetDocumentation\System.xml" />

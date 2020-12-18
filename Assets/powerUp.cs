@@ -42,6 +42,9 @@ public class powerUp : MonoBehaviour
             
 
             
+        }else if (collision.gameObject.CompareTag("LazerEvil"))
+        {
+            powerUpManager.PowerUpShoted(this.gameObject.transform, collision);
         }
     }
 }

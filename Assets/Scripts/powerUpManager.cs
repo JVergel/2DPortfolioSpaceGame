@@ -186,6 +186,12 @@ public class powerUpManager : MonoBehaviour
         Destroy(powerTransform.gameObject);
 
     }
+    public void PowerUpShoted(Transform powerTransform,Collider2D collider)
+    {
+        _PowerUpsound.Play();
+        Destroy(powerTransform.gameObject);
+        Destroy(collider.gameObject);
+    }
     public void powerUpShotDeactivated(int id)
     {
         switch (id)

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7435029758335813758}
   m_Layer: 0
   m_Name: laser2DEnemy
-  m_TagString: Untagged
+  m_TagString: LazerEvil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

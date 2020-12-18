@@ -11,6 +11,7 @@ public class Lazer1 : MonoBehaviour
     private AudioSource ExplodeSound;
     [SerializeField]
     public AudioClip clip;
+ 
 
     // Start is called before the first frame update
     private void Awake()
@@ -20,7 +21,7 @@ public class Lazer1 : MonoBehaviour
     }
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -53,6 +54,7 @@ public class Lazer1 : MonoBehaviour
             ExplodeSound.Play();
             Destroy(this.gameObject, clip.length);
         }
-        
+
+
     }
 }

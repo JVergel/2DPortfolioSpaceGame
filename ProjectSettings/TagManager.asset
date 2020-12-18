@@ -9,6 +9,8 @@ TagManager:
   - TripleShot
   - SpeedUp
   - LevelManager
+  - LazerEvil
+  - PowerUp
   layers:
   - Default
   - TransparentFX
