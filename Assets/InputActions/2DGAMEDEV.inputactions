@@ -52,6 +52,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press"
+                },
+                {
+                    "name": "GetPower",
+                    "type": "Button",
+                    "id": "d5d80136-f32b-41b0-910b-a701ecde400e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -305,6 +313,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Thrusters",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "866061dc-639d-4a01-a967-ca76fecefb3b",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "GetPower",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

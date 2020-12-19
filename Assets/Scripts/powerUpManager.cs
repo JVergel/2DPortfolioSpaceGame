@@ -39,6 +39,9 @@ public class powerUpManager : MonoBehaviour
     private bool _lifeUp;
     private bool _crazyUp;
     private int _shieldForce = 0;
+    private Vector2 target;
+    private float step;
+
     public bool CrazyUp
     {
         get
@@ -126,11 +129,21 @@ public class powerUpManager : MonoBehaviour
     }
     public void powerUpMovement(Transform powerTransform,int velocity)
     {
-        powerTransform.Translate(Vector3.down * Time.deltaTime * velocity);
-        if(powerTransform.position.x>9 | powerTransform.position.x <-9 | powerTransform.position.y <-5.5f)
+        if (!_Player.GetPower)
         {
-            Destroy(powerTransform.gameObject);
+            target = _Player.transform.position;
+            step = (velocity*5f) * Time.deltaTime;
+            powerTransform.position = Vector2.MoveTowards(powerTransform.position, target, step);
         }
+        else
+        {
+            powerTransform.Translate(Vector3.down * Time.deltaTime * velocity);
+            if (powerTransform.position.x > 9 | powerTransform.position.x < -9 | powerTransform.position.y < -5.5f)
+            {
+                Destroy(powerTransform.gameObject);
+            }
+        }
+
     }
 
     public void powerUpShotActivated(Transform powerTransform,int id)

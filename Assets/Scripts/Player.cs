@@ -42,6 +42,14 @@ public class Player : MonoBehaviour
     private Coroutine chargeDown;
     [SerializeField]
     private int _MaxAmmo;
+    private bool _GetPower;
+    public bool GetPower
+    {
+        get
+        {
+            return _GetPower;
+        }
+    }
     public int Score
     {
         get 
@@ -89,8 +97,10 @@ public class Player : MonoBehaviour
         uIManager = GameObject.Find("UI_Manager").GetComponent<UIManager>();
         _anim = this.GetComponent<Animator>();
         _ammo = 15;
+        _GetPower = true;
         ActualBoostTime = MaxBoostTime;
         NormalSpeed = moveSpeed;
+        
 
     }
     public float BoostPercentage()
@@ -253,6 +263,30 @@ public class Player : MonoBehaviour
         }
 
         
+
+    }
+    public void GetPowerWithKey(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            if (GetPower)
+            {
+                _GetPower = false;
+                StartCoroutine(GetPowerRoutine());
+            }
+        }
+    }
+    private IEnumerator GetPowerRoutine()
+    {
+        if (!GetPower)
+        {
+            yield return new WaitForSeconds(1f);
+            _GetPower = true;
+        }
+        else
+        {
+            yield return new WaitForFixedUpdate();
+        }
 
     }
     public void Thrusters(InputAction.CallbackContext context)

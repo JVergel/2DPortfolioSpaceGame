@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -28,7 +30,19 @@ public class Enemy : MonoBehaviour
     {
         Manager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<SpawnManager>();
         Manager.EnemiesAlive++;
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        try
+        {
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Player is death or missing from scene");
+        }
+        if (player != null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        }
+        
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
         ExplodeSound = GetComponent<AudioSource>();

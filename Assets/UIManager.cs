@@ -106,10 +106,11 @@ public class UIManager : MonoBehaviour
     {
         if (context.started == true)
         {
-            Debug.Log("R");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            
-
+            if (_GameOverState)
+            {
+                Debug.Log("R");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
 
     }

@@ -65,6 +65,14 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""GetPower"",
+                    ""type"": ""Button"",
+                    ""id"": ""d5d80136-f32b-41b0-910b-a701ecde400e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -318,6 +326,17 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Thrusters"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""866061dc-639d-4a01-a967-ca76fecefb3b"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""GetPower"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -901,6 +920,7 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         m_Player_Restart = m_Player.FindAction("Restart", throwIfNotFound: true);
         m_Player_Escape = m_Player.FindAction("Escape", throwIfNotFound: true);
         m_Player_Thrusters = m_Player.FindAction("Thrusters", throwIfNotFound: true);
+        m_Player_GetPower = m_Player.FindAction("GetPower", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -968,6 +988,7 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Restart;
     private readonly InputAction m_Player_Escape;
     private readonly InputAction m_Player_Thrusters;
+    private readonly InputAction m_Player_GetPower;
     public struct PlayerActions
     {
         private @_2DGAMEDEV m_Wrapper;
@@ -978,6 +999,7 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         public InputAction @Restart => m_Wrapper.m_Player_Restart;
         public InputAction @Escape => m_Wrapper.m_Player_Escape;
         public InputAction @Thrusters => m_Wrapper.m_Player_Thrusters;
+        public InputAction @GetPower => m_Wrapper.m_Player_GetPower;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1005,6 +1027,9 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                 @Thrusters.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
                 @Thrusters.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
                 @Thrusters.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnThrusters;
+                @GetPower.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGetPower;
+                @GetPower.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGetPower;
+                @GetPower.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGetPower;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1027,6 +1052,9 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
                 @Thrusters.started += instance.OnThrusters;
                 @Thrusters.performed += instance.OnThrusters;
                 @Thrusters.canceled += instance.OnThrusters;
+                @GetPower.started += instance.OnGetPower;
+                @GetPower.performed += instance.OnGetPower;
+                @GetPower.canceled += instance.OnGetPower;
             }
         }
     }
@@ -1189,6 +1217,7 @@ public class @_2DGAMEDEV : IInputActionCollection, IDisposable
         void OnRestart(InputAction.CallbackContext context);
         void OnEscape(InputAction.CallbackContext context);
         void OnThrusters(InputAction.CallbackContext context);
+        void OnGetPower(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
