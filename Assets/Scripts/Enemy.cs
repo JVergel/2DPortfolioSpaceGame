@@ -29,14 +29,10 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        try
-        {
+  
             avoidArea = GetComponentInChildren<AvoidArea>();
-        }
-        catch (Exception e)
-        {
-            
-        }
+        
+
         
         Manager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<SpawnManager>();
         Manager.EnemiesAlive++;
@@ -115,7 +111,12 @@ public class Enemy : MonoBehaviour
             }
             
         }
-        
+        else if (EnemyMovementId == 3)
+        {
+
+        }
+
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

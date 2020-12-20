@@ -32,6 +32,11 @@ public class SpawnManager : MonoBehaviour
     private int RateSpawn;
     [SerializeField]
     public int EnemiesAlive;
+    [SerializeField]
+    private bool BossWave;
+    [SerializeField]
+    private GameObject boss;
+    private bool bossDefeated;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +44,8 @@ public class SpawnManager : MonoBehaviour
         _currentWave = 0;
         NumberOfEnemies = 0;
         RateSpawn = 0;
+        BossWave = false;
+        bossDefeated=false;
     }
     public void StartSpawning()
     {
@@ -49,37 +56,62 @@ public class SpawnManager : MonoBehaviour
 
     private IEnumerator spwaningEnemies()
     {
-        while(!stopSpawning)
-        {
-            yield return new WaitForSeconds(1f);
-            CuerrentWaveEnemies();
-            StartCoroutine(Umanager.FlickNewWave(_currentWave));
-            GameObject Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
-            GameObject newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
-            newEnemy.transform.parent = transform.gameObject.transform;
-            NumberOfEnemies--;
-            yield return new WaitForSeconds(RateSpawn);
-            for (int i = 0; i < NumberOfEnemies || EnemiesAlive>0; NumberOfEnemies--)
-                    {
-                        if (NumberOfEnemies < 0)
-                       {
-                    yield return new WaitForFixedUpdate();
-                }
-                            else
-                            {
-                    Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
-                    newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
-                    newEnemy.transform.parent = transform.gameObject.transform;
-                    yield return new WaitForSeconds(RateSpawn);
 
-                            }
- 
+        CuerrentWaveEnemies();
+        while (!stopSpawning)
+        {
+            if (BossWave)
+            {
+                GameObject bosse = Instantiate(boss, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
+                bosse.transform.parent = transform.gameObject.transform;
+                yield return new WaitForSeconds(10);
+                bossDefeated = true;
+                BossWave = false;
+            }
+            yield return new WaitForSeconds(1f);
+
+                StartCoroutine(Umanager.FlickNewWave(_currentWave));
+                GameObject Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
+                GameObject newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
+                newEnemy.transform.parent = transform.gameObject.transform;
+                NumberOfEnemies--;
+
+
+
+            if (bossDefeated)
+            {
+                _currentWave = 100;
+                CuerrentWaveEnemies();
+
+            }
+            else
+            {
+                yield return new WaitForSeconds(RateSpawn);
+                for (int i = 0; i < NumberOfEnemies || EnemiesAlive > 0; NumberOfEnemies--)
+                {
+                    if (NumberOfEnemies < 0)
+                    {
+                        yield return new WaitForFixedUpdate();
                     }
+                    else
+                    {
+                        Enemy = enemy[GetRandomWeightedIndex(weigthChancesEnemies)];
+                        newEnemy = Instantiate(Enemy, new Vector3(Random.Range(-8, 8), 9, 0), Quaternion.identity);
+                        newEnemy.transform.parent = transform.gameObject.transform;
+                        yield return new WaitForSeconds(RateSpawn);
+
+                    }
+
+                }
+                
+
+            }
             Debug.Log("this wave"+_currentWave);
             
 
             yield return new WaitForSeconds(4f);
             _currentWave++;
+            CuerrentWaveEnemies();
 
 
 
@@ -107,9 +139,13 @@ public class SpawnManager : MonoBehaviour
                 RateSpawn = 4;
                 NumberOfEnemies = 15;
                 break;
+            case 4:
+                BossWave = true;
+                
+                break;
             default:
-                Debug.Log("All waves Done");
                 stopSpawning = true;
+                Debug.Log("All waves Done");
                 break;
 
 
@@ -127,7 +163,7 @@ public class SpawnManager : MonoBehaviour
             GameObject powerUp = powerUps[GetRandomWeightedIndex(weigthChancesPowerUps)];
             Instantiate(powerUp, new Vector3(Random.Range(-8, 8), 11, 0), Quaternion.identity);
           
-            yield return new WaitForSeconds(Random.Range(15,20));
+            yield return new WaitForSeconds(Random.Range(5,12));
         }
     }
     public void OnPlayerDeath()
