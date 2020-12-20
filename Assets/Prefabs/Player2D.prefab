@@ -5208,6 +5208,7 @@ MonoBehaviour:
   _MaxAmmo: 15
   tripleLazer: {fileID: 3861220729712667159, guid: 7288789f4bfdf48448b988ef0eaa32ab, type: 3}
   crazyLazer: {fileID: 3861220729712667159, guid: da21e39202834ab478e5cdbe5a134804, type: 3}
+  SeekLazer: {fileID: 1102601910958399351, guid: 2f1f43cd32eddb243ace1935e3fb00d4, type: 3}
 --- !u!114 &7747475416506979627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5345,6 +5346,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f0624168-0e56-45e1-ad08-c5a0bf2eef41
     m_ActionName: Player/Thrusters[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d5d80136-f32b-41b0-910b-a701ecde400e
+    m_ActionName: Player/GetPower[/Keyboard/c]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

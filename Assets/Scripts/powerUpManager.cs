@@ -38,10 +38,17 @@ public class powerUpManager : MonoBehaviour
     private bool _ammoUp;
     private bool _lifeUp;
     private bool _crazyUp;
+    private bool _SeekUp;
     private int _shieldForce = 0;
     private Vector2 target;
     private float step;
-
+    public bool SeekUp
+    {
+        get
+        {
+            return _SeekUp;
+        }
+    }
     public bool CrazyUp
     {
         get
@@ -109,7 +116,8 @@ public class powerUpManager : MonoBehaviour
         ShieldsUp,
         AmmoUp,
         LifeUp,
-        CrazyUp
+        CrazyUp,
+        AntiAmmoUp
     }
     // Start is called before the first frame update
     private void Awake()
@@ -120,6 +128,7 @@ public class powerUpManager : MonoBehaviour
         _shieldUp = false;
         _lifeUp = false;
         _crazyUp = false;
+        _SeekUp = false;
         
         _Powerupvel     = 3;
         _Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -154,6 +163,7 @@ public class powerUpManager : MonoBehaviour
         ///id 3=> ammo
         ///id 4=> life
         ///id 5=> crazyshot
+        ///id 6=> antiammo
         float localwaitTime;
         switch (id)
         {
@@ -189,6 +199,11 @@ public class powerUpManager : MonoBehaviour
             case 6:
                 _ammoUp = true;
                 _Player.RestAmmo();
+                break;
+            case 7:
+                _SeekUp = true;
+                localwaitTime = 5f;
+                StartCoroutine(powerUpBack(localwaitTime, id));
                 break;
 
 
@@ -230,6 +245,9 @@ public class powerUpManager : MonoBehaviour
                 break;
             case 6:
                 _ammoUp = false;
+                break;
+            case 7:
+                _SeekUp = false;
                 break;
             default:
                 break;

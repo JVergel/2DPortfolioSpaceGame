@@ -78,6 +78,8 @@ public class Player : MonoBehaviour
     private GameObject tripleLazer;
     [SerializeField]
     private GameObject crazyLazer;
+    [SerializeField]
+    private GameObject SeekLazer;
     private float finalSpeed;
 
     private void Awake()
@@ -252,6 +254,10 @@ public class Player : MonoBehaviour
                 else if (powerUpManager.CrazyUp)
                 {
                     Instantiate(crazyLazer, new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z), Quaternion.identity);
+                }
+                else if(powerUpManager.SeekUp)
+                {
+                    Instantiate(SeekLazer, new Vector3(transform.position.x, transform.position.y - 1.5f, transform.position.z), Quaternion.identity);
                 }
                 else
                 {
