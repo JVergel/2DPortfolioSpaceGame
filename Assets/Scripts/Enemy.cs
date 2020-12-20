@@ -24,10 +24,20 @@ public class Enemy : MonoBehaviour
     private int EnemyMovementId;
     private Vector2 target;
     private float step;
+    private AvoidArea avoidArea;
 
     // Start is called before the first frame update
     void Start()
     {
+        try
+        {
+            avoidArea = GetComponentInChildren<AvoidArea>();
+        }
+        catch (Exception e)
+        {
+            
+        }
+        
         Manager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<SpawnManager>();
         Manager.EnemiesAlive++;
         try
@@ -95,6 +105,15 @@ public class Enemy : MonoBehaviour
                 transform.rotation = Quaternion.identity;
                 this.GetComponent<SpriteRenderer>().color = Color.white;
             }
+        }
+        else if (EnemyMovementId == 2)
+        {
+            transform.Translate(new Vector2(Mathf.Sin(-1 * enemyVelocity * Time.time) * 0.02f, -1 * enemyVelocity * Time.deltaTime), Space.World);
+            if (avoidArea.Avoid)
+            {
+                transform.Translate(new Vector2(-1 * enemyVelocity * Time.deltaTime * 2f, -1 * enemyVelocity * Time.deltaTime*0.2f), Space.World);
+            }
+            
         }
         
     }

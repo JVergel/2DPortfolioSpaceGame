@@ -68,6 +68,7 @@
     <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\Explosion.cs" />
     <Compile Include="Assets\powerUp.cs" />
+    <Compile Include="Assets\AvoidArea.cs" />
     <Compile Include="Assets\Scripts\Lazer2.cs" />
     <Compile Include="Assets\CShake.cs" />
     <Compile Include="Assets\Scripts\Lazer3.cs" />
